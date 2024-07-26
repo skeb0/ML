@@ -3,7 +3,7 @@ df = pd.read_csv('enjoysport.csv')
 a = df.values.tolist() 
 print(df) 
 n = len(a[0]) - 1
-S = ['?'] * n # Initialize with '?'
+S = ['?'] * n 
 print("Initial hypothesis:", S) 
 print("FIND S ALGORITHM") 
 S = a[0][:-1] 
